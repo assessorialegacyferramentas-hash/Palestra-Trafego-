@@ -23,6 +23,10 @@ export const INSTITUTIONAL_ICON_URL = 'https://i.imgur.com/uXefMAQ.png';
 export const INSTITUTIONAL_ICON_FALLBACK_URL = 'https://imgur.com/uXefMAQ.png';
 export const INSTITUTIONAL_ICON_ALT = 'Ícone Legacy Growth Partner';
 
+// 5. Open Graph / Compartilhamento
+export const OG_IMAGE_URL = 'https://i.imgur.com/rfSeDl8.png';
+export const FAVICON_URL = 'https://i.imgur.com/uXefMAQ.png';
+
 // Informações de Contato / Destino WhatsApp
 export const WHATSAPP_PHONE_DISPLAY = '+55 84 9943-1296';
 export const WHATSAPP_PHONE_NORMALIZED = '558499431296';

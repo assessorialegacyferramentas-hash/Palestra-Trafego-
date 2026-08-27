@@ -5,9 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
     <title>Sua Primeira Campanha | Legacy Growth Partner</title>
     <meta name="description" content="Estruture sua primeira campanha de tráfego pago com a Legacy Growth Partner." />
+
+    <script>
+      (function() {
+        try {
+          if (typeof window !== 'undefined') {
+            var originalFetch = window.fetch ? window.fetch.bind(window) : undefined;
+            Object.defineProperty(window, 'fetch', {
+              get: function() {
+                return originalFetch;
+              },
+              set: function(newFetch) {
+                originalFetch = newFetch;
+              },
+              configurable: true,
+              enumerable: true
+            });
+          }
+        } catch (e) {
+          // ignore if already configured
+        }
+      })();
+    </script>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="https://i.imgur.com/uXefMAQ.png" />
+    <link rel="shortcut icon" type="image/png" href="https://i.imgur.com/uXefMAQ.png" />
+    <link rel="apple-touch-icon" href="https://i.imgur.com/uXefMAQ.png" />
+
+    <!-- Open Graph / WhatsApp / Facebook -->
     <meta property="og:title" content="Sua Primeira Campanha | Legacy Growth Partner" />
     <meta property="og:description" content="Estruture sua primeira campanha de tráfego pago com a Legacy Growth Partner." />
     <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://i.imgur.com/rfSeDl8.png" />
+    <meta property="og:image:secure_url" content="https://i.imgur.com/rfSeDl8.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:alt" content="Legacy Growth Partner - Sua Primeira Campanha" />
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Sua Primeira Campanha | Legacy Growth Partner" />
+    <meta name="twitter:description" content="Estruture sua primeira campanha de tráfego pago com a Legacy Growth Partner." />
+    <meta name="twitter:image" content="https://i.imgur.com/rfSeDl8.png" />
+
     <meta name="theme-color" content="#0B2B26" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
